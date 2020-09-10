@@ -27,7 +27,6 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css'
         }),
-        new FaviconsWebpackPlugin('./assets/img/favicon.png')
     ],
     module: {
         rules: [
